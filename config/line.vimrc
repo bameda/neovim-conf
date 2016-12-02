@@ -1,5 +1,4 @@
 " All status line configuration goes here
-
 set cmdheight=1
 set display+=lastline
 
@@ -16,7 +15,7 @@ let g:airline#extensions#tabline#show_tab_type=0
 let g:airline#extensions#tmuxline#enabled=0
 let g:airline_theme = 'base16_pop'
 if !exists('g:airline_symbols')
-  let g:airline_symbols = {}
+    let g:airline_symbols = {}
 endif
 
 let g:airline_symbols.linenr = ''

@@ -1,3 +1,7 @@
+" Unified color scheme (default: dark)
+set background=dark
+
+" Syntax highlight
 syntax on
 syntax enable
 
@@ -9,9 +13,9 @@ set number
 set backspace=indent,eol,start
 
 if has("vms")
-  set nobackup		" do not keep a backup file, use versions instead
+    set nobackup		" do not keep a backup file, use versions instead
 else
-  set backup		" keep a backup file
+    set backup		" keep a backup file
 endif
 
 set undodir=~/.config/nvim/undodir
@@ -28,31 +32,31 @@ set cursorline
 set showcmd		" display incomplete commands
 
 if has('mouse')
-  set mouse=a
+    set mouse=a
 endif
 
 if has("autocmd")
 
-  augroup vimrcEx
-    au!
+    augroup vimrcEx
+        au!
 
-    " For all text files set 'textwidth' to 78 characters.
-    autocmd FileType text setlocal textwidth=108
+        " For all text files set 'textwidth' to 78 characters.
+        autocmd FileType text setlocal textwidth=108
 
-    " Trim whitespace onsave
-    autocmd BufWritePre * %s/\s\+$//e
+        " Trim whitespace onsave
+        autocmd BufWritePre * %s/\s\+$//e
 
-    " When editing a file, always jump to the last known cursor position.
-    " Don't do it when the position is invalid or when inside an event handler
-    " (happens when dropping a file on gvim).
-    " Also don't do it when the mark is in the first line, that is the default
-    " position when opening a file.
-    autocmd BufReadPost *
-          \ if line("'\"") > 1 && line("'\"") <= line("$") |
-          \   exe "normal! g`\"" |
-          \ endif
+        " When editing a file, always jump to the last known cursor position.
+        " Don't do it when the position is invalid or when inside an event handler
+        " (happens when dropping a file on gvim).
+        " Also don't do it when the mark is in the first line, that is the default
+        " position when opening a file.
+        autocmd BufReadPost *
+              \ if line("'\"") > 1 && line("'\"") <= line("$") |
+              \   exe "normal! g`\"" |
+              \ endif
 
-  augroup END
+    augroup END
 
 endif " has("autocmd")
 
@@ -88,23 +92,23 @@ set lazyredraw
 set magic " for regular expressions
 
 if &listchars ==# 'eol:$'
-  set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+    set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
 endif
 
 if has('path_extra')
-  setglobal tags-=./tags tags^=./tags;
+    setglobal tags-=./tags tags^=./tags;
 endif
 
 set autoread
 
 if &history < 10000
-  set history=10000
+    set history=10000
 endif
 if &tabpagemax < 50
-  set tabpagemax=50
+    set tabpagemax=50
 endif
 if !empty(&viminfo)
-  set viminfo^=!
+    set viminfo^=!
 endif
 set sessionoptions-=options
 
@@ -114,7 +118,26 @@ set hid " buffer becomes hidden when abandoned
 " stop highlighting of underscores in markdown files
 autocmd BufNewFile,BufRead,BufEnter *.md,*.markdown :syntax match markdownIgnore "_"
 
+" Remove last spaces
+au BufWritePre *.py :%s/\s\+$//e
+au BufWritePre *.coffee :%s/\s\+$//e
+au BufWritePre *.js :%s/\s\+$//e
+au BufWritePre *.jade :%s/\s\+$//e
+au BufWritePre *.pug :%s/\s\+$//e
+au BufWritePre *.sass :%s/\s\+$//e
+au BufWritePre *.css :%s/\s\+$//e
+
+" Highlight last spaces
+highlight ExtraWhitespace ctermbg=red guibg=red
+au InsertLeave,BufWinEnter * match ExtraWhitespace /\s\+$/
+au ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+
 " clipboard
 set clipboard=unnamedplus
 
 set completeopt=longest,menuone,preview
+
+" Use the python inmstalled in the system if virtualenv o pyenv is enabled.
+let g:python3_host_prog = '/usr/bin/python3'
+let g:python_host_prog = '/usr/bin/python2'
+
