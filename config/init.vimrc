@@ -13,7 +13,6 @@ Plug 'majutsushi/tagbar', { 'on':  'TagbarToggle' }
 " Dark powered asynchronous completion framework for neovim
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " code
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -38,5 +37,6 @@ Plug 'airblade/vim-gitgutter'
 " lean & mean status/tabline for vim that's light as air
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
 
 call plug#end()
