@@ -21,6 +21,14 @@ Plug 'tmhedberg/SimpylFold'
 " Flake8 plugin for Vim
 Plug 'nvie/vim-flake8'
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Syntax Highligth
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Syntax highligth for vue.js (.vue files)
+Plug 'posva/vim-vue'
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Git
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
