@@ -140,4 +140,3 @@ set completeopt=longest,menuone,preview
 " Use the python inmstalled in the system if virtualenv o pyenv is enabled.
 let g:python3_host_prog = '/usr/bin/python3'
 let g:python_host_prog = '/usr/bin/python2'
-

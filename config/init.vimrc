@@ -20,7 +20,8 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'tmhedberg/SimpylFold'
 " Flake8 plugin for Vim
 Plug 'nvie/vim-flake8'
-
+" Emmet syntax for HTML code
+Plug 'mattn/emmet-vim'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Syntax Highligth
