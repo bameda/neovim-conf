@@ -5,7 +5,7 @@ call plug#begin('~/.config/nvim/plugged')
 " general
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Fuzzy file, buffer, mru, tag, etc finder
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 " A tree explorer plugin for vim.
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " Displays tags in a window, ordered by scope
