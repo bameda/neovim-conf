@@ -23,6 +23,9 @@ Plug 'tmhedberg/SimpylFold'
 Plug 'nvie/vim-flake8'
 " Emmet syntax for HTML code
 Plug 'mattn/emmet-vim'
+" HTML/XML close tag
+Plug 'alvan/vim-closetag'
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Syntax Highligth
