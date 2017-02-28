@@ -32,6 +32,8 @@ Plug 'alvan/vim-closetag'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Syntax highligth for vue.js (.vue files)
 Plug 'posva/vim-vue'
+" Syntax highligth for Pug (.pug .jade files)
+Plug 'digitaltoad/vim-pug'
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
