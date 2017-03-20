@@ -34,6 +34,8 @@ Plug 'alvan/vim-closetag'
 Plug 'posva/vim-vue'
 " Syntax highligth for Pug (.pug .jade files)
 Plug 'digitaltoad/vim-pug'
+" Syntax highligth for JSON (.json .ksonp files)
+Plug 'elzr/vim-json'
 " Syntax highligth for i3 config files (.i3 files)
 Plug 'PotatoesMaster/i3-vim-syntax'
 
