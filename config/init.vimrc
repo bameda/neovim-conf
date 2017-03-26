@@ -36,6 +36,8 @@ Plug 'posva/vim-vue'
 Plug 'digitaltoad/vim-pug'
 " Syntax highligth for HTML5 (.html files)
 Plug 'othree/html5.vim'
+" Syntax highligth for Javascript (.js files)
+Plug 'jelera/vim-javascript-syntax'
 " Syntax highligth for JSON (.json .ksonp files)
 Plug 'elzr/vim-json'
 " Syntax highligth for i3 config files (.i3 files)
