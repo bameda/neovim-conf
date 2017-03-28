@@ -33,3 +33,13 @@ function! g:committia_hooks.edit_open(info)
         startinsert
     end
 endfunction
+
+
+""""""""""""""""""""""""
+" hail2u/vim-css3-syntax
+""""""""""""""""""""""""
+augroup VimCSS3Syntax
+  autocmd!
+
+  autocmd FileType css setlocal iskeyword+=-
+augroup END
