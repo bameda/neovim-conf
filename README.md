@@ -15,6 +15,11 @@ Packages needed
 Setup
 -----
 1. Install all the packages needed.
+
+    ```
+    yaourt -S neovim
+    ```
+    
 2. Clone the repo to `~/.config/nvim`
 
     ```
