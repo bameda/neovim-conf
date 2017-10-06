@@ -14,6 +14,7 @@ Plug 'majutsushi/tagbar', { 'on':  'TagbarToggle' }
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-jedi'
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " code
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -25,6 +26,8 @@ Plug 'nvie/vim-flake8'
 Plug 'mattn/emmet-vim'
 " HTML/XML close tag
 Plug 'alvan/vim-closetag'
+" Asynchronous Lint Engine
+Plug 'w0rp/ale'
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -39,7 +42,9 @@ Plug 'othree/html5.vim'
 " Syntax highligth for CSS3/SASS (.css/.sass files)
 Plug 'hail2u/vim-css3-syntax'
 " Syntax highligth for Javascript (.js files)
-Plug 'jelera/vim-javascript-syntax'
+Plug 'pangloss/vim-javascript'
+" Syntax highligth for Javascript ReactJS (.jsx files)
+Plug 'mxw/vim-jsx'
 " Syntax highligth for JSON (.json .ksonp files)
 Plug 'elzr/vim-json'
 " Syntax highligth for i3 config files (.i3 files)
@@ -55,6 +60,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'rhysd/committia.vim'
 " A Vim plugin which shows a git diff in the gutter (sign column).
 Plug 'airblade/vim-gitgutter'
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " look & feel

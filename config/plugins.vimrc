@@ -36,6 +36,12 @@ endfunction
 
 
 """"""""""""""""""""""""
+" mxw/vim-jsx
+""""""""""""""""""""""""
+let g:jsx_ext_required = 0
+
+
+""""""""""""""""""""""""
 " hail2u/vim-css3-syntax
 """"""""""""""""""""""""
 augroup VimCSS3Syntax
