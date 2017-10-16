@@ -69,6 +69,11 @@ set shiftwidth=4
 set autoindent
 set smartindent
 
+" Special indentation by filetype
+autocmd Filetype css setlocal tabstop=2 softtabstop=2 shiftwidth=2
+autocmd Filetype javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
+autocmd Filetype html setlocal tabstop=2 softtabstop=2 shiftwidth=2
+
 set nrformats-=octal
 
 set ttimeout
