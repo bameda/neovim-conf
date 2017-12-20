@@ -73,6 +73,8 @@ set smartindent
 autocmd Filetype css setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd Filetype javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd Filetype html setlocal tabstop=2 softtabstop=2 shiftwidth=2
+autocmd Filetype vue setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+autocmd Filetype pug setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 
 set nrformats-=octal
 
