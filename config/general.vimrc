@@ -125,6 +125,9 @@ set hid " buffer becomes hidden when abandoned
 " stop highlighting of underscores in markdown files
 autocmd BufNewFile,BufRead,BufEnter *.md,*.markdown :syntax match markdownIgnore "_"
 
+" Prevent vue highlighting sotp working randomly
+autocmd FileType vue syntax sync fromstart
+
 " Remove last spaces
 au BufWritePre *.py :%s/\s\+$//e
 au BufWritePre *.coffee :%s/\s\+$//e

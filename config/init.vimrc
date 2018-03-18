@@ -68,6 +68,8 @@ Plug 'airblade/vim-gitgutter'
 " lean & mean status/tabline for vim that's light as air
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" Icons, icons everywhere...
+Plug 'ryanoasis/vim-devicons'
 
 
 call plug#end()

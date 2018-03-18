@@ -10,7 +10,8 @@ Packages needed
 
 - neovim
 - python-neovim
-
+- nerd-fonts-complete           (for VimDevIcons)
+- nerd-fonts-source-code-pro    (for VimDevIcons)
 
 Setup
 -----
@@ -21,5 +22,5 @@ Setup
     ```
     git clone https://github.com/bameda/neovim-conf.git ~/.config/nvim
     ```
-    
+
 3. Open `nvim`, type `:PlugInstall` and press *ENTER* to download all plugins.
