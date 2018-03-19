@@ -41,6 +41,8 @@ Plug 'digitaltoad/vim-pug'
 Plug 'othree/html5.vim'
 " Syntax highligth for CSS3/SASS (.css/.sass files)
 Plug 'hail2u/vim-css3-syntax'
+" Syntax highligth for Stylus/CSS3
+Plug 'iloginow/vim-stylus'
 " Syntax highligth for Javascript (.js files)
 Plug 'pangloss/vim-javascript'
 " Syntax highligth for Javascript ReactJS (.jsx files)
