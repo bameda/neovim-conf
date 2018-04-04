@@ -53,6 +53,8 @@ Plug 'mxw/vim-jsx'
 Plug 'elzr/vim-json'
 " Syntax highligth for i3 config files (.i3 files)
 Plug 'PotatoesMaster/i3-vim-syntax'
+" Twig highligth
+Plug 'nelsyeung/twig.vim'
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
