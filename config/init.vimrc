@@ -55,6 +55,8 @@ Plug 'elzr/vim-json'
 Plug 'PotatoesMaster/i3-vim-syntax'
 " Twig highligth
 Plug 'nelsyeung/twig.vim'
+" Jinja2 syntax
+Plug 'Glench/Vim-Jinja2-Syntax'
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
