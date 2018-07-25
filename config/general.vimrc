@@ -27,7 +27,15 @@ set backupdir=~/.config/nvim/backup
 set directory=~/.config/nvim/backup
 
 set ruler		" show the cursor position all the time
-set cursorline
+
+set cursorline  " Set cursor line highlight
+hi CursorLine   cterm=bold ctermbg=none ctermfg=none guibg=none guifg=none
+hi CursorLineNR cterm=bold ctermbg=yellow ctermfg=black
+
+"set cursorcolumn  " Set cursor column highlight
+"hi CursorColumn cterm=bold ctermbg=none ctermfg=none guibg=none guifg=none
+nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
+
 
 set showcmd		" display incomplete commands
 
