@@ -140,6 +140,7 @@ autocmd FileType vue syntax sync fromstart
 au BufWritePre *.py :%s/\s\+$//e
 au BufWritePre *.coffee :%s/\s\+$//e
 au BufWritePre *.js :%s/\s\+$//e
+au BufWritePre *.vue :%s/\s\+$//e
 au BufWritePre *.jade :%s/\s\+$//e
 au BufWritePre *.pug :%s/\s\+$//e
 au BufWritePre *.sass :%s/\s\+$//e
