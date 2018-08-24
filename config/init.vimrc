@@ -74,6 +74,8 @@ Plug 'airblade/vim-gitgutter'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " look & feel
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
+" monokai-pro color schema
+Plug 'phanviet/vim-monokai-pro'
 " lean & mean status/tabline for vim that's light as air
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'

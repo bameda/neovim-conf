@@ -22,6 +22,18 @@ set wildignore+=*/tmp/*,*/dist/,*.so,*.swp,*.zip,*node_modules*,*.jpg,*.png,*.sv
 """"""""""""""""""""""""
 autocmd BufWinEnter * silent! :%foldopen! " unfold all by default
 
+"""""""""""""""""""""""
+" w0rp/ale
+""""""""""""""""""""""""
+let g:ale_completion_enabled = 1
+
+let g:ale_echo_msg_error_str = 'E'
+let g:ale_echo_msg_warning_str = 'W'
+let g:ale_echo_msg_format = '[%linter%] %code% [%severity%]: %s'
+let g:airline#extensions#ale#enabled = 1
+
+let g:ale_fixers = {'javascript': ['prettier', 'prettier-eslint', 'eslint']}
+
 
 """"""""""""""""""""""""
 " rhysd/committia.vim
@@ -49,3 +61,12 @@ augroup VimCSS3Syntax
 
   autocmd FileType css setlocal iskeyword+=-
 augroup END
+
+
+""""""""""""""""""""""""
+" phanviet/vim-monokai-pro
+""""""""""""""""""""""""
+set termguicolors
+colorscheme monokai_pro
+
+
