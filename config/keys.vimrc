@@ -25,8 +25,8 @@ map <F2> :NERDTreeToggle<CR>
 map <F3> <ESC>:TagbarToggle<CR>
 
 " Ale linter
-nmap <silent> <A-Up> <Plug>(ale_previous_wrap)
-nmap <silent> <A-Down> <Plug>(ale_next_wrap)
+nmap <silent> <C-A-Up> <Plug>(ale_previous_wrap)
+nmap <silent> <C-A-Down> <Plug>(ale_next_wrap)
 
 " vim gitgutter
 nmap <F9> :GitGutterLineHighlightsEnable<CR>
