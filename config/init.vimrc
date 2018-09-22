@@ -44,6 +44,8 @@ Plug 'othree/html5.vim'
 Plug 'hail2u/vim-css3-syntax'
 " Syntax highligth for Stylus/CSS3
 Plug 'iloginow/vim-stylus'
+" Syntax highligth for css colors
+Plug 'ap/vim-css-color'
 " Syntax for EJS (JS Templates, .ejs)
 Plug 'nikvdp/ejs-syntax'
 " Syntax highligth for Javascript (.js files)
