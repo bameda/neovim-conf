@@ -15,3 +15,8 @@ source $HOME/.config/nvim/config/keys.vimrc
 source $HOME/.config/nvim/config/line.vimrc
 " abbreviations.vimrc my list of abbreviations.
 source $HOME/.config/nvim/config/abbreviations.vimrc
+
+
+" Enable .vimrc per project
+set exrc
+set secure
