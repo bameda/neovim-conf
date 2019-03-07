@@ -8,10 +8,12 @@ My personal configuration for NeoVim
 Packages needed
 ---------------
 
-- neovim
-- python-neovim
-- nerd-fonts-complete           (for VimDevIcons)
-- nerd-fonts-source-code-pro    (for VimDevIcons)
+- `yay -S neovim`
+- `yay -S python-neovim`
+- `yay -S nerd-fonts-complete`          (for VimDevIcons)
+- `yay -S nerd-fonts-source-code-pro`   (for VimDevIcons)
+- `sudo npm install -g typescript`      (for mhartington/nvim-typescript)
+- `sudo npm install -g neovim`          (for mhartington/nvim-typescript)
 
 Setup
 -----

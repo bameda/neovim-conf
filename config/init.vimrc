@@ -15,6 +15,9 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-jedi'
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 Plug 'fszymanski/deoplete-emoji'
+Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
+Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " code
@@ -48,7 +51,9 @@ Plug 'iloginow/vim-stylus'
 Plug 'ap/vim-css-color'
 " Syntax for EJS (JS Templates, .ejs)
 Plug 'nikvdp/ejs-syntax'
-" Syntax highligth for Javascript (.js files)
+" Syntax for TypeScript (.ts files)
+Plug 'HerringtonDarkholme/yats.vim'
+" Syntar highligth for Javascript (.js files)
 Plug 'pangloss/vim-javascript'
 " Syntax highligth for Javascript ReactJS (.jsx files)
 Plug 'mxw/vim-jsx'
