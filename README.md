@@ -26,3 +26,5 @@ Setup
     ```
 
 3. Open `nvim`, type `:PlugInstall` and press *ENTER* to download all plugins.
+
+4. Then run `:UpdateRemotePlugins` (needed for _nvim-typescript_, [related issue](https://github.com/mhartington/nvim-typescript/issues/50))
