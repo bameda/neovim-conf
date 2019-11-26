@@ -8,6 +8,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'ctrlpvim/ctrlp.vim'
 " A tree explorer plugin for vim.
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'Xuyuanp/nerdtree-git-plugin'
 " Displays tags in a window, ordered by scope
 Plug 'majutsushi/tagbar', { 'on':  'TagbarToggle' }
 " Dark powered asynchronous completion framework for neovim
