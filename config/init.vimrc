@@ -66,7 +66,12 @@ Plug 'PotatoesMaster/i3-vim-syntax'
 Plug 'nelsyeung/twig.vim'
 " Jinja2 syntax
 Plug 'Glench/Vim-Jinja2-Syntax'
-
+" Android .smali files
+Plug 'kelwin/vim-smali'
+" Syntax highligth for python (improvements)
+Plug 'vim-python/python-syntax'
+" Syntax highligth for coffeescript (.coffee)
+Plug 'kchmck/vim-coffee-script'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Git
