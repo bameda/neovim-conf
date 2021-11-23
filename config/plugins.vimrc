@@ -7,6 +7,12 @@ let g:deoplete#enable_at_startup = 1
 
 
 """"""""""""""""""""""""
+" kiteco/vim-plugin
+""""""""""""""""""""""""
+let g:kite_supported_languages = ['*']
+
+
+""""""""""""""""""""""""
 " Kien/ctrlp.vim
 """"""""""""""""""""""""
 let g:ctrlp_prompt_mappings={'PrtClearCache()':['<Leader><F5>']}

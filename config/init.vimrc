@@ -16,9 +16,9 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-jedi'
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 Plug 'fszymanski/deoplete-emoji'
-Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
+" Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
+Plug 'kiteco/vim-plugin'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " code
@@ -72,6 +72,8 @@ Plug 'kelwin/vim-smali'
 Plug 'vim-python/python-syntax'
 " Syntax highligth for coffeescript (.coffee)
 Plug 'kchmck/vim-coffee-script'
+" Syntax for Prisma2 schema
+Plug 'pantharshit00/vim-prisma'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Git
