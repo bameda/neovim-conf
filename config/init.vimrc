@@ -74,6 +74,10 @@ Plug 'vim-python/python-syntax'
 Plug 'kchmck/vim-coffee-script'
 " Syntax for Prisma2 schema
 Plug 'pantharshit00/vim-prisma'
+" Syntax for Svelte
+"Plug 'othree/html5.vim'
+"Plug 'pangloss/vim-javascript'
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Git
