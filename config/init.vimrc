@@ -15,9 +15,8 @@ Plug 'majutsushi/tagbar', { 'on':  'TagbarToggle' }
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-jedi'
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
-Plug 'fszymanski/deoplete-emoji'
+Plug 'bew/deoplete-emoji-backup'
 " Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
-Plug 'kiteco/vim-plugin'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -75,9 +74,12 @@ Plug 'kchmck/vim-coffee-script'
 " Syntax for Prisma2 schema
 Plug 'pantharshit00/vim-prisma'
 " Syntax for Svelte
-"Plug 'othree/html5.vim'
-"Plug 'pangloss/vim-javascript'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
+" Syntax (and more) for reStructuredText
+Plug 'Rykka/riv.vim'
+" Syntax for MJML (.mjml)
+Plug 'amadeus/vim-mjml'
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Git
