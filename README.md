@@ -1,9 +1,7 @@
 my-neovim-conf
 ==============
 
-
 My personal configuration for NeoVim
-
 
 Packages needed
 ---------------
@@ -12,8 +10,11 @@ Packages needed
 - `yay -S python-neovim`
 - `yay -S nerd-fonts-complete`          (for VimDevIcons)
 - `yay -S nerd-fonts-source-code-pro`   (for VimDevIcons)
-- `sudo npm install -g typescript`      (for mhartington/nvim-typescript)
-- `sudo npm install -g neovim`          (for mhartington/nvim-typescript)
+- `yay -S tree-sitter`                  (for neovim-tree-sitter)
+
+- `npm install -g typescript`      (for mhartington/nvim-typescript)
+- `npm install -g neovim`          (for mhartington/nvim-typescript)
+- `pip -m install pynvim`          (for deoplete)
 
 Setup
 -----

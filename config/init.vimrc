@@ -38,27 +38,27 @@ Plug 'w0rp/ale'
 " Syntax Highligth
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Syntax highligth for vue.js (.vue files)
-Plug 'posva/vim-vue'
+"Plug 'posva/vim-vue'
 " Syntax highligth for Pug (.pug .jade files)
-Plug 'digitaltoad/vim-pug'
+"Plug 'digitaltoad/vim-pug'
 " Syntax highligth for HTML5 (.html files)
-Plug 'othree/html5.vim'
+"Plug 'othree/html5.vim'
 " Syntax highligth for CSS3/SASS (.css/.sass files)
-Plug 'hail2u/vim-css3-syntax'
+"Plug 'hail2u/vim-css3-syntax'
 " Syntax highligth for Stylus/CSS3
 Plug 'iloginow/vim-stylus'
 " Syntax highligth for css colors
 Plug 'ap/vim-css-color'
 " Syntax for EJS (JS Templates, .ejs)
-Plug 'nikvdp/ejs-syntax'
+"Plug 'nikvdp/ejs-syntax'
 " Syntax for TypeScript (.ts files)
-Plug 'HerringtonDarkholme/yats.vim'
+"Plug 'HerringtonDarkholme/yats.vim'
 " Syntar highligth for Javascript (.js files)
-Plug 'pangloss/vim-javascript'
+"Plug 'pangloss/vim-javascript'
 " Syntax highligth for Javascript ReactJS (.jsx files)
-Plug 'mxw/vim-jsx'
+"Plug 'mxw/vim-jsx'
 " Syntax highligth for JSON (.json .ksonp files)
-Plug 'elzr/vim-json'
+"Plug 'elzr/vim-json'
 " Syntax highligth for i3 config files (.i3 files)
 Plug 'PotatoesMaster/i3-vim-syntax'
 " Twig highligth
@@ -68,17 +68,20 @@ Plug 'Glench/Vim-Jinja2-Syntax'
 " Android .smali files
 Plug 'kelwin/vim-smali'
 " Syntax highligth for python (improvements)
-Plug 'vim-python/python-syntax'
+"Plug 'vim-python/python-syntax'
 " Syntax highligth for coffeescript (.coffee)
 Plug 'kchmck/vim-coffee-script'
 " Syntax for Prisma2 schema
-Plug 'pantharshit00/vim-prisma'
+"Plug 'pantharshit00/vim-prisma'
 " Syntax for Svelte
-Plug 'evanleck/vim-svelte', {'branch': 'main'}
+"Plug 'evanleck/vim-svelte', {'branch': 'main'}
 " Syntax (and more) for reStructuredText
-Plug 'Rykka/riv.vim'
+"Plug 'Rykka/riv.vim'
 " Syntax for MJML (.mjml)
 Plug 'amadeus/vim-mjml'
+
+" Multiple  lang syntax (nvim-treesitter)
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
