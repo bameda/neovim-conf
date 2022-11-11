@@ -13,6 +13,16 @@ let g:kite_supported_languages = ['*']
 
 
 """"""""""""""""""""""""
+" ms-jpq/chadtree'
+""""""""""""""""""""""""
+let g:chadtree_settings={
+\   'view.width': 30,
+\   'keymap.v_split': ['W'],
+\   'keymap.h_split': ['w'],
+\}
+
+
+""""""""""""""""""""""""
 " Kien/ctrlp.vim
 """"""""""""""""""""""""
 let g:ctrlp_prompt_mappings={'PrtClearCache()':['<Leader><F5>']}

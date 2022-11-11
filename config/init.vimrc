@@ -7,8 +7,10 @@ call plug#begin('~/.config/nvim/plugged')
 " Fuzzy file, buffer, mru, tag, etc finder
 Plug 'ctrlpvim/ctrlp.vim'
 " A tree explorer plugin for vim.
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'Xuyuanp/nerdtree-git-plugin'
+"Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+"Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
+
 " Displays tags in a window, ordered by scope
 Plug 'majutsushi/tagbar', { 'on':  'TagbarToggle' }
 " Dark powered asynchronous completion framework for neovim

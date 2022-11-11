@@ -19,7 +19,10 @@ nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
 vnoremap <Space> zf
 
 " The NERD Tree
-map <F2> :NERDTreeToggle<CR>
+"map <F2> :NERDTreeToggle<CR>
+
+" The CHAD Tree
+map <F2> <ESC>:CHADopen<CR>
 
 " Tagbar keybinding
 map <F3> <ESC>:TagbarToggle<CR>
