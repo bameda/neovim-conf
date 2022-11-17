@@ -43,12 +43,20 @@ autocmd BufWinEnter * silent! :%foldopen! " unfold all by default
 """"""""""""""""""""""""
 let g:ale_completion_enabled = 1
 
+let g:ale_set_highlights = 1
+let g:ale_sign_error = '>>'
+let g:ale_sign_warning = '--'
+"
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] %code% [%severity%]: %s'
 let g:airline#extensions#ale#enabled = 1
 
-let g:ale_fixers = {'javascript': ['prettier', 'prettier-eslint', 'eslint']}
+"let b:ale_python_mypy_auto_pipenv=1
+let g:ale_fixers = {
+\   'javascript': ['prettier', 'prettier-eslint', 'eslint'],
+\   'python': ['add_blank_lines_for_python_control_statements', 'isort', 'black', 'autoflake']
+\}
 
 
 """"""""""""""""""""""""
