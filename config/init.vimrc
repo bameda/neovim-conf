@@ -19,7 +19,8 @@ Plug 'zchee/deoplete-jedi'
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 Plug 'bew/deoplete-emoji-backup'
 " Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
-Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+" Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+Plug 'github/copilot.vim'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " code

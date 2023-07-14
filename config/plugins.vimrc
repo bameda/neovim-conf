@@ -58,6 +58,10 @@ let g:ale_fixers = {
 \   'python': ['add_blank_lines_for_python_control_statements', 'isort', 'black', 'autoflake']
 \}
 
+let b:ale_linters = [
+\ 'flake8', 'mypy', 'pydocstyle', 'ruff',
+\]
+
 
 """"""""""""""""""""""""
 " rhysd/committia.vim
