@@ -36,7 +36,6 @@ Plug 'alvan/vim-closetag'
 " Asynchronous Lint Engine
 Plug 'w0rp/ale'
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Syntax Highligth
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -82,10 +81,12 @@ Plug 'kchmck/vim-coffee-script'
 "Plug 'Rykka/riv.vim'
 " Syntax for MJML (.mjml)
 Plug 'amadeus/vim-mjml'
+" Syntas for Helm files and templates
+Plug 'towolf/vim-helm'
 
-" Multiple  lang syntax (nvim-treesitter)
+" Multiple lang syntax (nvim-treesitter)
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-
+Plug 'windwp/nvim-ts-autotag'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Git
